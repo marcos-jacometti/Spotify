@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Menu = styled.header`
     height: 100vh;
-    width: 12.5vw;
+    width: 15vw;
     background: #000;
     float: left;
 `;
