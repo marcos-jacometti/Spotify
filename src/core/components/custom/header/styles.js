@@ -18,6 +18,7 @@ export const Div = styled.div`
     border-radius: ${props => props.radius};
     margin-left: ${props => props.left};
     color: #b8b8b8;
+    font-weight: 900;
     
 
     svg {

@@ -18,6 +18,8 @@ export const Div = styled.div`
     color: ${props => props.color};
     font-weight: ${props => props.weight};
     margin-left: ${props => props.left};
+    margin-top: ${props => props.top};
+    border-radius: ${props => props.radius};
 
     svg {
         fill: #b8b8b8;
