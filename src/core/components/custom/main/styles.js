@@ -31,7 +31,7 @@ export const Content = styled.div`
 
     svg {
         fill: ${props => props.fill};
-        font-size: 2.5vh;
+        font-size: ${props => props.svgSize};
     }
 
     h1 {
