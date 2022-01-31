@@ -18,7 +18,7 @@ export default function Header(){
                 <Div height="5vh" width="88%" justify="center" radius="0.5vh"><BsPlusLg /><Div width="85%" height="100%" left="1vw"><p>Create Playlist</p></Div></Div>
                 <Div height="5vh" width="88%" justify="center" radius="0.5vh"><AiFillHeart /><Div width="85%" height="100%" left="1vw"><p>Liked Songs</p></Div></Div>
             </Div>
-            <Div left="1vh" height="0.1vh" width="88%" background="#b8b8b8"/>
+            <Div left="2vh" height="0.1vh" width="80%" background="#b8b8b8"/>
             <Div height="auto" width="100%" direction="column" justify="start">
                 <Div height="4vh" width="88%" justify="center" justify="start" radius="0.5vh"><p>Funk</p></Div>
                 <Div height="4vh" width="88%" justify="center" justify="start" radius="0.5vh"><p>Rap</p></Div>
