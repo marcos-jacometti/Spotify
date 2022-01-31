@@ -20,15 +20,21 @@ export const Content = styled.div`
     width: ${props => props.width};
     height: ${props => props.height};
     display: flex;
-    align-items: center;
+    align-items: ${props => props.align};
     flex-direction: ${props => props.direction};
     justify-content: ${props => props.justify};
     background: ${props => props.background};
     border-radius: ${props => props.radius};
+    margin-left: ${props => props.left};
+    margin-top: ${props => props.top};
     color: #fff;
 
     svg {
-        fill: #fff;
+        fill: ${props => props.fill};
         font-size: 2.5vh;
+    }
+
+    h1 {
+        font-size: 3.5vw;
     }
 `;
