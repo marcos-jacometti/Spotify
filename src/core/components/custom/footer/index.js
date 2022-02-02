@@ -8,7 +8,7 @@ export default function Footer(){
         <WrapperFooter>
             <Div height="100vh" width="100%" direction="column"  align="center">
                 <Div width="100%" height="10vh" align="center" justify="space-around" color="#fff"><h4>Friend activity</h4><AiOutlineUserAdd /></Div>
-                <Div width="95%" height="6vh" align="center" color="#b8b8b8" weight="500" left="0.5vw"><p>Let friends and followers on Spotify see what you're listening to.</p></Div>
+                <Div width="95%" height="6vh" align="center" color="#c8c8c8" left="0.5vw"><p>Let friends and followers on Spotify see what you're listening to.</p></Div>
                 <Div width="100%" height="auto" direction="column">
                     <Div width="100%" height="7vh" align="center">
                         <Div background="#404040" height="65%" width="15%" radius="50%" align="center" justify="center" left="0.5vw"><AiOutlineUser /></Div>
@@ -35,7 +35,7 @@ export default function Footer(){
                         </Div>
                     </Div>
                 </Div>
-                <Div width="95%" height="8.5vh" align="center" color="#b8b8b8" weight="500" left="0.5vw">
+                <Div width="95%" height="9vh" align="center" color="#c8c8c8" left="0.5vw">
                     <p>Go to Settings. Social and enable 'Share my listening activity on Spotify'. You can turn this off at any time.</p>
                 </Div>
                 <Div width="auto" height="auto">

@@ -17,12 +17,12 @@ export const Div = styled.div`
     background: ${props => props.background};
     border-radius: ${props => props.radius};
     margin-left: ${props => props.left};
-    color: #b8b8b8;
+    color: #c8c8c8;
     font-weight: 900;
     
 
     svg {
-        font-size: 2vh;
+        font-size: ${props => props.svg};
     }
 
     :hover {

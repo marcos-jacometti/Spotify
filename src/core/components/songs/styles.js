@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../../img/song.jpg";
+import img from "../../img/album.jfif";
 
 export const Infos = styled.div`
     display: flex;

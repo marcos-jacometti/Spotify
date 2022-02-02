@@ -4,8 +4,8 @@ import img from "../../../img/background.jpg";
 export const Container = styled.main`
     height: 100vh;
     width:70vw;
-    background: #181818;
     float: left;
+    background: rgb(18, 18, 18);
 `;
 
 export const Wrapper = styled.div`
@@ -28,10 +28,15 @@ export const Content = styled.div`
     margin-left: ${props => props.left};
     margin-top: ${props => props.top};
     color: #fff;
+    font-weight: ${props => props.weight};
 
     svg {
         fill: ${props => props.fill};
         font-size: ${props => props.svgSize};
+
+        :hover {
+            fill: ${props => props.fillHover};
+        }
     }
 
     h1 {

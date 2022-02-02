@@ -16,13 +16,14 @@ export const Div = styled.div`
     width: ${props => props.width};
     background: ${props => props.background};
     color: ${props => props.color};
-    font-weight: ${props => props.weight};
+    font-weight: 500;
     margin-left: ${props => props.left};
     margin-top: ${props => props.top};
     border-radius: ${props => props.radius};
+    line-height: 2vh;
 
     svg {
-        fill: #b8b8b8;
+        fill: #c8c8c8;
         font-size: 2.5vh;
 
         :hover {
